@@ -39,7 +39,10 @@ $(document).ready(function(){
 		$('html,body').animate({ scrollTop: 0 }, 200);
 	});
 
-
+    // Quick Menu
+    $('.quick-title').click(function(){
+        $(this).siblings('.quick-list').toggle();
+    });
 
 });
 

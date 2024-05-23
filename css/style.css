@@ -196,7 +196,9 @@ body { font-family: var(--primary-kr); font-size: 16px; color: #000; }
     .counseling-wrap .left-box h2 {font-size: 2.25em;}
     .footer .footer-link { flex-wrap: wrap; width: 100%; } 
     .footer .btn.btn-primary { flex: 0 1 auto; width: 100%; margin: 10px 0; } 
-    .quick { display: none !important; } 
+    .quick {top: auto; bottom: 100px; transform: none; }
+    .quick .quick-title {background-color: var(--sub-color);}
+    .quick .quick-list {display: none;}
 }
 @media (max-width:480px) {
     .main-banner .banner-wrap {height: 80vh; aspect-ratio: auto;}
